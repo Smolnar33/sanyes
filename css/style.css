@@ -236,6 +236,7 @@ strong {
   justify-content: space-between;
   align-items: center;
   background-color: #000000;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 
   height: 4rem;
   padding: 0 5.8rem;
@@ -303,6 +304,24 @@ strong {
 
 .icon-mobile-nav[name='close-outline'] {
   display: none;
+}
+
+/* STICKY NAVIGATION */
+
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: #fff; */
+  z-index: 9999;
+  overflow: hidden;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sticky .slider {
+  margin-top: 4rem;
 }
 
 /* SLIDER */

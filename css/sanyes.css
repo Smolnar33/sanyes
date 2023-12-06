@@ -24,7 +24,7 @@ body {
   /* z-index: -1; */
 }
 
-.sanyes_pic {
+.sanyes-pic {
   max-width: 100%;
   margin: 0 auto;
   position: relative;
@@ -132,4 +132,20 @@ body {
 
 .pic-trials img:nth-child(1) {
   transform: scale(1.05);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: #fff; */
+  z-index: 9999;
+  overflow: hidden;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sticky-sanyes {
+  margin-top: 4rem;
 }
